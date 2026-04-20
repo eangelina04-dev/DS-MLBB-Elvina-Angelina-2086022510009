@@ -21,15 +21,7 @@
 4. What is the difference between a linear structure and a tree structure in this example?
 = In this example, a linear structure is like an array. It moves in sequential order (0,1,2 ....). Other than that, a tree structure is branching to many datas in the same level. In our implementation, it meant that the items can be branched to some materials in the same level, a visual example for a tree structure:
 
-[ Root ] Magic Items Shop
- │
- ├── Enchanted Talisman (Final Item)
- │    ├── Tome of Evil
- │    │    ├── Magic Necklace
- │    │    └── Book of Sages
- │    ├── Magic Necklace (Langsung dari mentahan)
- │    └── Magic Wand
- │         └── Mystery Codex
+<img src="screenshots/gambar_structure_tree.png"
 
  A visual example for a linear structure:
  Magic Items Shop = [Enchanted Talisman, Tome of Evil, Magic Necklace, Book of Sages...]

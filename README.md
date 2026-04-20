@@ -34,7 +34,7 @@
  This is absolutely wrong because enchanted talisman is not in one level with Tome of Evil, they should be on different level.
 
  5. How does recursion help when working with trees?
-= Actually structure tree already implements the concept of recursion, because every paren tree will be divided into sub trees. The role of recursion is when we write a bunch of codes to be implemented on all the nodes, we just need to write one time than use the recursion to do all the sama things on every node. It also uses the concept of backtracking to not take much of the memory. Every time a function calls itself, Java automatically pauses the current function and saves its exact state, when it got on the end, the function will return to the previous node. This is called backtracking. The example in the code is:
+= Actually structure tree already implements the concept of recursion, because every paren tree will be divided into sub trees. The role of recursion is when we write a bunch of codes to be implemented on all the nodes, we just need to write one time than use the recursion to do all the sama things on every node. It also uses the concept of backtracking to not take much of the memory. Every time we remove or take a step back, the function will return to the previous node. This is called backtracking. The example in the code is:
 static void printAllBuildPaths(ItemNode node, List<String> path) {
         if (node == null) return; (base case)
 

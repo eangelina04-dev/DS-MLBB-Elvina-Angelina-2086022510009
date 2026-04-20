@@ -288,6 +288,7 @@ public class TreeMLBBTutorial {
         magicShop.addChild(wishingLantern);
         magicShop.addChild(lanternOfHope); 
         magicShop.addChild(flowerOfHope);
+        magicShop.addChild(immortality);
 
         return magicShop;
     }
